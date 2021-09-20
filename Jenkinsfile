@@ -27,5 +27,10 @@ pipeline {
                 echo 'Releasinging'
             }
         }
+        stage(Integration') {
+            steps {
+                echo 'Integration Complete'
+            }
+        }
     }
 }
